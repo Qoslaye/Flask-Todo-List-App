@@ -1,0 +1,12 @@
+# Byte-compiled files and cache
+__pycache__/
+
+# SQLite database files
+*.db
+
+# Environment variables
+.env
+
+# Other system files
+.DS_Store
+Thumbs.db
