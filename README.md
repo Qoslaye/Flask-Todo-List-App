@@ -20,7 +20,7 @@ A simple and user-friendly **To-Do List Application** built using **Flask**, des
 - **Backend**: Flask (Python)
 - **Frontend**: HTML, CSS (Bootstrap or your chosen framework)
 - **Database**: SQLite (or the database used)
-- **Deployment**: [Platform name, e.g., Heroku/Vercel/Railway]
+- **Deployment**: [Platform name, e.g., /Vercel]
 - **Version Control**: Git & GitHub
 
 ---
@@ -45,8 +45,8 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/flask-todo-list.git
-   cd flask-todo-list
+   git clone https://github.com/Qoslaye/flask-todo-list-App.git
+   cd flask-todo-list-App
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
