@@ -56,7 +56,7 @@ python app.py
 
 ## 📸 Screenshots
 
-###Home Page
+- ###Home Page
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/afb9b2aa-a2b3-46ab-9c10-99caa9de3ade">
 ###Add Task
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/270c6c81-4f97-4504-9948-e4c6f9d1a2b3">
