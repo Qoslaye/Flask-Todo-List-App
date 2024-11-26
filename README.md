@@ -56,14 +56,14 @@ python app.py
 
 ## 📸 Screenshots
 
-- **Home Page**:
+###Home Page
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/afb9b2aa-a2b3-46ab-9c10-99caa9de3ade">
-- **Add Task**:
+###Add Task
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/270c6c81-4f97-4504-9948-e4c6f9d1a2b3">
-- **Edit Task**:
+###Edit Task
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/f5218f0c-5b7e-4a20-821d-ee723abf6d10">
-- **Edit Task**:
+###Edit Task
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/afd385a3-a950-42cd-97dd-384cff310f3c">
-- **Task List**:
+###Task List
 <img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/2d20683e-ac7b-41f6-ac2a-a632daea0956">
 
