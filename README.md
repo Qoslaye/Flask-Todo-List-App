@@ -50,9 +50,9 @@ python app.py
 
 ## 📸 Screenshots
 
-<img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/afb9b2aa-a2b3-46ab-9c10-99caa9de3ade">
-<img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/270c6c81-4f97-4504-9948-e4c6f9d1a2b3">
-<img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/f5218f0c-5b7e-4a20-821d-ee723abf6d10">
-<img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/afd385a3-a950-42cd-97dd-384cff310f3c">
-<img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/2d20683e-ac7b-41f6-ac2a-a632daea0956">
+<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/963d7ee0-9eaa-46d7-82ef-51e60153477c">
+<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/af4e591b-ec85-450f-9971-67a369a0adf8">
+<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/ff6d6e1d-a164-4d65-ace0-9e3ede4e1634">
+<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/f99e0f5f-92cc-4745-abc9-7b01ab570c4f">
+<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/72760572-955d-46c7-ba2d-d1b15e9d098e">
 
