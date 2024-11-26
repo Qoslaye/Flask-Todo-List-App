@@ -50,9 +50,7 @@ python app.py
 
 ## 📸 Screenshots
 
-<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/963d7ee0-9eaa-46d7-82ef-51e60153477c">
-<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/53588b4f-c17e-4701-b91c-5f313443d099">
-<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/ff6d6e1d-a164-4d65-ace0-9e3ede4e1634">
+
 <img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/f99e0f5f-92cc-4745-abc9-7b01ab570c4f">
-<img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/2be3fa62-f31a-4549-ae2c-fcb8355f8f0e">
+
 
