@@ -23,13 +23,7 @@ A simple and user-friendly **To-Do List Application** built using **Flask**, des
 - **Deployment**: [Platform name, e.g., /Vercel]
 - **Version Control**: Git & GitHub
 
----
 
-## 📂 Project Structure
-flask-todo-list/ ├── app.py # Main application file ├── requirements.txt # List of dependencies ├── templates/ # HTML templates │ ├── base.html │ ├── index.html │ └── edit.html ├── static/ # Static files (CSS, JS, images) │ ├── css/ │ ├── js/ │ └── images/ ├── database.db # SQLite database file └── README.md # Project documentation
-
-
----
 
 ## 🔧 Installation and Setup
 
