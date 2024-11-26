@@ -53,5 +53,7 @@ python app.py
 
 
 <img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/f99e0f5f-92cc-4745-abc9-7b01ab570c4f">
+<img width="923" alt="some tasks " src="https://github.com/user-attachments/assets/cb20c751-9bea-4fe2-9144-bd0c56dce769">
+
 
 
