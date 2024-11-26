@@ -48,3 +48,9 @@ def delete(sno):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+if __name__ == "__main__":
+    from werkzeug.middleware.proxy_fix import ProxyFix
+    app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
+    app.run(debug=False)
