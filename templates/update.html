@@ -1,20 +1,18 @@
 {% extends 'base.html' %}
-{% block title %}
-Update
-{% endblock %}
+{% block title %}Update{% endblock %}
 {% block body %}
-<h2>Update Todo</h2>
-<div class="container my-3">
-    <form action="" method="POST">
-        <div class="mb-3">
-            <label for="title" class="form-label">Todo Title</label>
-            <input type="text" class="form-control" name="title" id="title" value="{{ todo.title }}">
-        </div>
-        <div class="mb-3">
-            <label for="desc" class="form-label">Todo Description</label>
-            <input type="text" class="form-control" name="desc" id="desc" value="{{ todo.desc }}">
-        </div>
-        <button type="submit" class="btn btn-primary">Update</button>
-    </form>
+<div class="container my-4">
+  <h2 class="text-center">Update Todo</h2>
+  <form action="" method="POST" class="p-4 shadow-sm rounded bg-white">
+    <div class="mb-3">
+      <label for="title" class="form-label">Todo Title</label>
+      <input type="text" class="form-control" name="title" id="title" value="{{ todo.title }}">
+    </div>
+    <div class="mb-3">
+      <label for="desc" class="form-label">Todo Description</label>
+      <textarea class="form-control" name="desc" id="desc" rows="3">{{ todo.desc }}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Update Todo</button>
+  </form>
 </div>
 {% endblock %}

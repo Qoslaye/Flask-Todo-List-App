@@ -1,57 +1,50 @@
 {% extends 'base.html' %}
-{%block title %} 
-Home
-        {%endblock%}  
+{% block title %}Home{% endblock %}
 {% block body %}
-
-  <div class="container my-3"> 
-    <h2>
-      Todo List 
-    </h2>
-    <form action="/" method="POST">
-      <div class="mb-3">
-        <label for="title" class="form-label">Todo Title</label>
-        <input type="text" class="form-control" name="title" id="title" aria-describedby="textHelp">
-        <div id="textHelp" class="form-text">Add the title for the todo list</div>
-      </div>
-      <div class="mb-3">
-        <label for="desc" class="form-label">Todo Description</label>
-        <input type="text" class="form-control" name="desc" id="desc">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
-
-  <div class="container my-3">
-    {% if alltodo | length == 0 %}
-      <p>No todo list</p>
-    {% else %}
-      <p>Your Todos</p>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Sno</th>
-            <th scope="col">Title</th>
-            <th scope="col">Description</th>
-            <th scope="col">Time</th>
-            <th scope="col">Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for todo in alltodo %}
-            <tr>
-              <th scope="row">{{ loop.index }}</th>
-              <td>{{ todo.title }}</td>
-              <td>{{ todo.desc }}</td>
-              <td>{{ todo.time }}</td>
-              <td>
-                <a href="/update/{{ todo.sno }}" class="btn btn-outline-success btn-sm mx-1">Update</a>
-                <a href="/delete/{{ todo.sno }}" class="btn btn-outline-danger btn-sm mx-1">Delete</a>
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    {% endif %}
-  </div>
-{% endblock body %}
+<div class="container my-4">
+  <h2 class="text-center">Manage Your Todos</h2>
+  <form action="/" method="POST" class="p-4 shadow-sm rounded bg-white">
+    <div class="mb-3">
+      <label for="title" class="form-label">Todo Title</label>
+      <input type="text" class="form-control" name="title" id="title" placeholder="Enter title">
+    </div>
+    <div class="mb-3">
+      <label for="desc" class="form-label">Todo Description</label>
+      <textarea class="form-control" name="desc" id="desc" rows="3" placeholder="Enter description"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Add Todo</button>
+  </form>
+</div>
+<div class="container my-4">
+  {% if alltodo | length == 0 %}
+    <p class="text-center text-muted">No todos available. Start by adding one!</p>
+  {% else %}
+    <h4 class="my-3">Your Todos</h4>
+    <table class="table table-hover table-striped shadow-sm bg-white rounded">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Title</th>
+          <th scope="col">Description</th>
+          <th scope="col">Time</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for todo in alltodo %}
+        <tr>
+          <th scope="row">{{ loop.index }}</th>
+          <td>{{ todo.title }}</td>
+          <td>{{ todo.desc }}</td>
+          <td>{{ todo.time }}</td>
+          <td>
+            <a href="/update/{{ todo.sno }}" class="btn btn-success btn-sm" data-bs-toggle="tooltip" title="Edit"><i class="bi bi-pencil"></i> Update</a>
+            <a href="/delete/{{ todo.sno }}" class="btn btn-danger btn-sm" data-bs-toggle="tooltip" title="Delete"><i class="bi bi-trash"></i> Delete</a>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</div>
+{% endblock %}
