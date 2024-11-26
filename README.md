@@ -49,6 +49,7 @@ pip install -r requirements.txt
 python app.py
 
 ## 📸 Screenshots
+<img width="960" alt="empty todo " src="https://github.com/user-attachments/assets/79d86097-60f6-4a45-ae0c-c7c355f1e63a">
 
 
 <img width="959" alt="todo 3" src="https://github.com/user-attachments/assets/f99e0f5f-92cc-4745-abc9-7b01ab570c4f">
